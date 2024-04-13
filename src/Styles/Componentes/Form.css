@@ -1,0 +1,134 @@
+.form-control {
+    display: block;
+    width: calc(100% - 90px); /* Ajusta el ancho del control de formulario */
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+  }
+  
+  .btn {
+    display: inline-block;
+    font-weight: 400;
+    color: #212529;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-color: transparent;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    position: relative;
+    left: 70%;
+    bottom: 38px;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+  }
+  
+  .btn-outline-success {
+    color: #28a745;
+    border-color: #28a745;
+  }
+  
+  .btn-outline-success:hover {
+    color: #fff;
+    background-color: #28a745;
+    border-color: #28a745;
+  }
+  
+  /* Estilos para el dropdown toggle */
+.custom-dropdown-toggle {
+    background-color: #ccbebe;
+    color: #212529;
+    border: 1px solid #ced4da;
+    border: none;
+    padding: 10px 30px;
+    font-size: 16px;
+    cursor: pointer;
+    position: relative;
+    border-radius: 5px; /* Añade esquinas redondas */
+  }
+
+  .custom-dropdown-toggles {
+    background-color: #ccbebe;
+    color: #212529;
+    border: 1px solid #ced4da;
+    border: none;
+    padding: 10px 30px;
+    font-size: 16px;
+    cursor: pointer;
+    position: relative;
+    top: 20px;
+    left: 15%;
+    border-radius: 5px; /* Añade esquinas redondas */
+  }
+  
+  /* Pseudo-elemento para la flecha */
+  .custom-dropdown-toggle::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    right: 10px; /* Ajusta la posición de la flecha */
+    width: 2px;
+    height: 0;
+    border-style: solid;
+    border-width: 6px 6px 0 6px; /* Tamaño de la flecha */
+    border-color: #212529 transparent transparent transparent; /* Color de la flecha */
+    transform: translateY(-50%);
+  }
+
+  .custom-dropdown-toggles::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    right: 10px; /* Ajusta la posición de la flecha */
+    width: 2px;
+    height: 0;
+    border-style: solid;
+    border-width: 6px 6px 0 6px; /* Tamaño de la flecha */
+    border-color: #212529 transparent transparent transparent; /* Color de la flecha */
+    transform: translateY(-50%);
+  }
+  
+  /* Estilos para el dropdown menu */
+  .custom-dropdown-menu {
+    background-color: #fff;
+    border: 1px solid #ced4da;
+    padding: 10px;
+    position: absolute;
+    top: calc(100% + 10px); /* Ajusta la posición del menú */
+    left: 0;
+    z-index: 1000;
+    display: none;
+    border-radius: 5px; /* Añade esquinas redondas */
+  }
+  
+  /* Estilo para el dropdown menu cuando está abierto */
+  .custom-dropdown-menu.show {
+    display: block;
+  }
+  
+  /* Estilos para los ítems del dropdown menu */
+  .custom-dropdown-item {
+    color: #212529;
+    text-decoration: none;
+    display: block;
+    padding: 10px 0;
+    cursor: pointer;
+  }
+  
+  .custom-dropdown-item:hover {
+    background-color: #f8f9fa;
+  }
+
+  

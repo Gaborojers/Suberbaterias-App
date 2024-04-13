@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+.login {
+    width: 50%;
+    height: 50%;
+    max-width: 500px;
+    margin: 0 auto;
+    position: absolute; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    text-align: center;
+    background-color: #D7F0B7;
+    padding: 20px; 
+    border-radius: 20px;
+}
+
+.formulario {
+    position: absolute;
+    width: 100%;
+    left: 6%;
+}

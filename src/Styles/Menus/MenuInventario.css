@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+.container {
+    width: 100%; /* El contenedor ocupa el 100% del ancho disponible */
+    height: 100vh; /* El contenedor ocupa el 100% del alto de la ventana */
+    position: relative; /* Cambia el contenedor a posición relativa */
+  }
+  
+.greenRectangle {
+    width: 100%; /* Ancho del rectángulo verde, el 80% del contenedor */
+    height: 8%; /* Altura del rectángulo verde, el 20% del contenedor */
+    background-color: #D7F0B7;
+    position: absolute; /* Posiciona el rectángulo de forma absoluta dentro del contenedor */
+    top: 7%; /* Mueve el rectángulo hacia abajo un 10% desde la parte superior del contenedor */
+    left: 50%; /* Centra el rectángulo horizontalmente */
+    transform: translateX(-50%); /* Corrige el centrado horizontal */
+  }
+
+  h1 {
+    position: absolute;
+    left: 80%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 200%;
+  }
+
+  .battery {
+    position: absolute;
+    bottom: 100%;
+    left: 170%;
+  }
+
+  .helmet{
+    position: absolute;
+    bottom: 100%;
+    left: 65%;
+  }
+
+  .group1 {
+    position: absolute;
+    top: 45%;
+    left: 45%;
+    transform: translateX(-50%);
+  }
+
+  .group2 {
+    position: absolute;
+    top: 60%;
+    left: 45%;
+    transform: translateX(-50%);
+  }
+
+  .options .inventory .transfer .cash .shopping {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 26px; /* Ajusta el tamaño del texto dentro de los botones */
+    padding: 30px 40px; /* Ajusta el tamaño del botón */
+  }
+  
+  .iconWrapper {
+    margin-bottom: 5px; /* Ajusta el espacio entre el icono y el texto */
+  }
+
+  .shopping{
+    position: absolute;
+  }
+   
+  .button {
+    display: inline-block;
+    background-color: #D9D9D9;
+    border: 1px solid #D9D9D9;
+    color: #000000;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 25px;
+  }
+  
+  .button:hover {
+    background-color: #D9D9D9;
+    border-color: #D9D9D9;
+    border-radius: 25px;
+  }
+  
